@@ -1,0 +1,25 @@
+{
+  "name": "ziz.li",
+  "version": "1.0.0",
+  "description": "URL shortener",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "author": "Serhii Prykhozhyi <prykhozhyi@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
